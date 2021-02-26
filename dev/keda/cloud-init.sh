@@ -34,7 +34,7 @@ tar -C tmp/ -xvf k9s_Linux_x86_64.tar.gz
 rm k9s_Linux_x86_64.tar.gz
 sudo mv -f tmp/k9s /usr/local/bin
 rm -rf tmp/
-mkdir $HOME/.k9s/
+mkdir -p $HOME/.k9s/
 
 echo "# lazygit..."
 sudo add-apt-repository --yes ppa:lazygit-team/release
