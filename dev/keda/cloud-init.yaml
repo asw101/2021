@@ -26,6 +26,7 @@ write_files:
 - encoding: b64
   content: ewogICAgIkhFTExPIjoid29ybGQiLAogICAgIkdPT0RCWUU6IndvcmxkCn0K
   path: /home/ubuntu/env.json
+  owner: ubuntu:ubuntu
 
 runcmd:
 - export HOME='/home/ubuntu'
